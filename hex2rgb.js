@@ -12,7 +12,7 @@ function valid(x)
     {
         for(var i=1;i<7;i++)
         {
-            if((x[i]>='0'&&x[i]<='9')||(x[i]>='a'&&z[i]<='f')||(x[i]>='A'&&x[i]<='F'))
+            if((x[i]>='0'&&x[i]<='9')||(x[i]>='a'&&x[i]<='f')||(x[i]>='A'&&x[i]<='F'))
             continue;
             else
             return false;

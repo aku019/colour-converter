@@ -6,7 +6,7 @@ const btn = document.querySelector('#convertButton');
 const op = document.querySelector('#output');
 btn.addEventListener('click', () => {
     
-    if(!(r.value>=0&&r.value<=255&&b.value>=0&&b.value<=255&&g.value>=0&&g.value<=255))
+    if(!(Number(r.value)>=0&&Number(r.value)<=255&&Number(g.value)>=0&&Number(g.value)<=255&&Number(b.value)>=0&&Number(b.value)<=255))
     {
         window.alert("Please Enter a number between 0-255.");
     }

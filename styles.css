@@ -17,19 +17,24 @@ body {
   };
 }
 
+h2{
+  color:#e76f51;
+}
+
 .heading {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: xx-large;
+  /* color: #e76f51; */
   /* display:flex;
   text-align: center; */
 }
 
 .abc {
   background-color: white;
-  color: purple;
+  color: #e76f51;
   padding: 12px 20px;
   /* margin: auto;  */
-  margin: 60px 16px 10px 50px;  
+  margin: 20px auto;  
   width: 250px;
   height: 35px;
   border-color: white;
@@ -37,17 +42,18 @@ body {
   font-size: 16px;
 }
 
-.buttondiv
+/* .buttondiv
 {
   padding: 30px 20px 20px 450px;
   
   margin: 0 auto;
-}
+} */
 
 .header {
   background-image: url('https://images.unsplash.com/photo-1484584343816-b22e89904ab2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80');
   background-size: cover;
   background-repeat: no-repeat;
+
   padding-top: 28px;
   color: white;
 }
@@ -56,9 +62,20 @@ body {
   color: gray;
 }
 
+.body
+{
+  background-color: #264653;
+  width: 50%;
+  height:70%;
+  margin: 20px auto;  
+  
+}
+
 .logic {
-  background-color: rgb(20, 192, 141);
+   background-color: #2a9d8f; 
   min-height: 500px;
+  display: flex;
+  align-items: center;
 
 }
 
@@ -72,10 +89,13 @@ body {
    * flex-direction: row;
    * flex-wrap: wrap;
    */
-  flex-flow: row wrap;
+   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-flow: row wrap;
 
   /* Then we define how is distributed the remaining space */
-  justify-content: space-around;
+  /* justify-content: space-around; */ 
 }
 
 .flex-head
@@ -115,7 +135,7 @@ body {
 }
 
 .footer-para {
-  color: purple;
+  color:purple;
   margin: auto;
   text-align: center;
 }
@@ -128,7 +148,7 @@ body {
   height: 100px;
 }
 
-.abc::after {
+/* .abc::after {
   background-color: grey;
   content: '';
   display: block;
@@ -138,7 +158,7 @@ body {
   right: 10px;
   bottom: 10px;
   z-index: -1;
-}
+} */
 
 .button {
   border-radius: 4px;
@@ -147,12 +167,15 @@ body {
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
-  padding: 20px;
-  
-  width: 200px;
+  font-style: bold;
+  /* padding: 20px; */
+  margin: 0 auto;  
+  width: 250px;
+  height: 35px;
+  /* width: 200px; */
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  /* margin: 5px; */
 }
 
 .button span {
