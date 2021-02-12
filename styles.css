@@ -6,15 +6,23 @@ body {
 }
 
 
-@media screen and (max-width: 980px) {
-  .heading {
-      width: 100%;
+@media all and (max-width: 980px) {
+ 
+ header{
+  
+  width: 100%;
+
+
   }
- body{
-  font-size: 16px;
 
+  .abc{
+    width:10px;
+  }
 
-  };
+  
+
+  
+
 }
 
 h2{
@@ -62,11 +70,11 @@ h2{
   color: gray;
 }
 
-.body
+.body-flex
 {
   background-color: #264653;
-  width: 50%;
-  height:70%;
+  width: 350px;
+  height:450px;
   margin: 20px auto;  
   
 }
@@ -232,7 +240,7 @@ h2{
   text-align: center;
   border: 1px solid black;
   font-size: 20px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
   margin-top: 14px;
   margin-bottom: 18px;
 }
